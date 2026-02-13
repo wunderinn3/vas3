@@ -32,6 +32,8 @@ module.exports = {
         shimmer: "shimmer 2.5s linear infinite",
         marquee: "marquee 30s linear infinite",
         "marquee-reverse": "marqueeReverse 30s linear infinite",
+        "spin-slow": "spin 8s linear infinite",
+        "pulse-surface": "pulseSurface 8s ease-in-out infinite",
       },
       keyframes: {
         shimmer: {
@@ -45,6 +47,12 @@ module.exports = {
         marqueeReverse: {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(0%)" },
+        },
+        pulseSurface: {
+          "0%":   { opacity: "0" },
+          "15%":  { opacity: "1" },
+          "40%":  { opacity: "0" },
+          "100%": { opacity: "0" },
         },
       },
     },

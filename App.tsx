@@ -4,6 +4,8 @@ import Audience from './components/Audience';
 import ServiceDetail from './components/ServiceDetail';
 import Contact from './components/Contact';
 import ValueProposition from './components/ValueProposition';
+import QamVideoWidget from './components/QamVideoWidget';
+import StsVideoWidget from './components/StsVideoWidget';
 import { SERVICES } from './constants';
 import { BGPattern } from './components/ui/bg-pattern';
 
@@ -35,6 +37,9 @@ function App() {
 
         <Contact />
       </div>
+
+      <QamVideoWidget />
+      <StsVideoWidget />
     </div>
   );
 }

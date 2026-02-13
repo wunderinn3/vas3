@@ -322,13 +322,6 @@ export const SERVICES: ServiceData[] = [
             isVertical: true
         },
         {
-            title: "Case 04",
-            description: "Промо видео",
-            afterImage: "/script_to_screen/case_4_vertical.mp4",
-            isVideo: true,
-            isVertical: true
-        },
-        {
             title: "Case 05",
             description: "Промо видео",
             afterImage: "/script_to_screen/case_5_horizontal.mp4",
